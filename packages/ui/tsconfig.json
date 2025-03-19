@@ -1,24 +1,17 @@
 {
   "extends": "@repo/typescript-config/react.json",
   "compilerOptions": {
-    "types": [
-      "react"
-    ],
-    "rootDirs": [
-      "."
-    ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [
+      "@repo/ui/*": [
         "./src/*"
       ]
     }
   },
   "include": [
-    "."
+    "src"
   ],
   "exclude": [
-    "node_modules",
-    ".turbo"
+    "node_modules"
   ]
 }
