@@ -1,5 +1,5 @@
-import { drizzle } from 'drizzle-orm/better-sqlite3'
+import { drizzle } from 'drizzle-orm/better-sqlite3';
 
-const databaseUrl = process?.env?.DATABASE_URL || ''
-console.log('databaseUrl', databaseUrl)
-export const db = drizzle(databaseUrl)
+const databaseUrl = process?.env?.DATABASE_URL || '';
+console.log('databaseUrl', databaseUrl);
+export const db = drizzle(databaseUrl);

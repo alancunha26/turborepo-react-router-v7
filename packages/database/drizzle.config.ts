@@ -1,6 +1,6 @@
-import { defineConfig } from 'drizzle-kit'
+import { defineConfig } from 'drizzle-kit';
 
-console.log('DB', process.env.DATABASE_URL)
+console.log('DB', process.env.DATABASE_URL);
 
 export default defineConfig({
   dialect: 'sqlite',
@@ -10,4 +10,4 @@ export default defineConfig({
     // url: ":memory:", // inmemory database
     url: process?.env?.DATABASE_URL || '', // file: prefix is required by libsql
   },
-})
+});
