@@ -4,7 +4,7 @@ console.log('DB', process.env.DATABASE_URL);
 
 export default defineConfig({
   dialect: 'sqlite',
-  schema: './src/schema.ts',
+  schema: './src/schema/index.ts',
   out: './drizzle',
   dbCredentials: {
     // url: ":memory:", // inmemory database
