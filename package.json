@@ -1,5 +1,5 @@
 {
-  "name": "solo-core",
+  "name": "turborepo-react-router-v7",
   "private": true,
   "scripts": {
     "build": "turbo run build",
